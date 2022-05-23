@@ -1,0 +1,18 @@
+docker pull nginx
+
+docker run -d --name=aula3 -p 80:80 nginx
+
+docker ps
+
+docker stop [id conteiner]
+
+curl localhost
+
+mkdir modificar
+
+cd modificarAula3
+
+code . 
+
+docker container update -d ~/modificarAula3:/usr/share/nginx/html:ro CONTAINER [ID DELE]
+
